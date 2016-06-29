@@ -2,7 +2,7 @@ var massive = require("massive");
 var builder = require("../../index");
 
 
-var connectionString = require("./config").connectionString;
+var connectionString = require("../../config").connectionString;
 
 
 var Helpers = function() {
